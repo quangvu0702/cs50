@@ -1,0 +1,6 @@
+create env:
+- conda env create -f environment.yml
+
+update env:
+- conda env update --prefix ./env --file environment.yml  --prune
+

@@ -1,0 +1,13 @@
+name: cs50
+channels:
+  - javascript
+dependencies:
+  - python=3.6
+  - flask
+  - sqlalchemy
+  - psycopg2
+  - jupyter
+  - pandas
+  - pip:
+    - Flask-Testing
+    - Flask-Session
