@@ -8,6 +8,8 @@ dependencies:
   - psycopg2
   - jupyter
   - pandas
+  - flask-sqlalchemy
+  - requests
   - pip:
     - Flask-Testing
     - Flask-Session
